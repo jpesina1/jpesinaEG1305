@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class CountMoney {
 	
 	public static void main(String[] args) {
-	int UserMoney;
-	int Dollar;
+	int UserMoney; //Declare variables in all lower case letters, only the first letter of the second or third word in caps: userMoney
+	int Dollar; //dollar
 	int Quarter;
 	int Dime;
 	int Nickel;
