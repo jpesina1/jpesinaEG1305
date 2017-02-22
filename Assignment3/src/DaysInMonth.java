@@ -9,7 +9,9 @@ public class DaysInMonth {
 		
 		System.out.println(" Select a year: ");
 		userYear = keyboard.nextInt();
-			switch(userYear % 4){
+			switch(userYear % 4){ //This is not accurate. There are exceptions, for example year 1800 is not a leap year
+					      // year is a leap-year if it is evenly divisible by 4 unless it is evenly divisible by 100, 
+					      //UNLESS it is evenly divisible by 400
 				case 0:
 				{
 				months[2] = "29";
